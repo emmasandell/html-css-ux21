@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #ebebe0;
+    color: #4d4633;
+    }
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0p;
+}
+
+/* Nedan image over image från https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html */
+
+.imgHeader {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logoImg {
+    max-width: 300px;
+    max-height: 120px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    animation: logoAnimation 5s;
+    
+    animation-iteration-count: 1;
+}
+
+@keyframes logoAnimation {
+    to {
+        width: 400px;
+    }
+
+    from {
+        width: 200px;
+    }
+}
+
+
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-position: center;
+}
+
+.extraSpace {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.medelStorlek {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+
+.card a{
+    text-decoration: none;
+    color: #4d4633;
+}
+
+nav li a {
+    display: block;
+    padding: 12px 12px 12px 12px;
+    color: #ebebe0;
+    text-decoration: none;
+    background-color: #69655A;
+}
+
+nav li a:hover {
+    background-color: #e0e0d1;
+    color: #69655A;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    block-size: auto;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ebebe0;
+}
+
+nav li {
+    float: left;
+}
+
+.foodMenu a{
+    text-decoration: none;
+    color: #ebebe0;
+}
+
+.tillStartsidan a{
+    text-decoration: none;
+    color: #ebebe0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 30%;
+    padding: 20px;
+    display: inline-block;
+    background-color: #e0e0d1;
+    margin: 20px
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1.cardcontainer {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.indexMenuImages {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6e664e;
+    color: rgb(70, 53, 53);
+    text-align: center;
+}
+
+.footertext {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(168, 168, 168);
+    padding: 30px;
+}
+
+.footerOppettider {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 8;
+}
+
+
+.fooodmenuList {
+    background-color: black;
+    color: rgb(236, 208, 171);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    display: inline-flex;
+    padding: 10px;
+    width: 220px;
+    height: 30px;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menufontColor {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(236, 208, 171);
+    
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabellFood{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    padding: 10px;
+}
+
+.radtabellFood {
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.tabellFoodFestMeny {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    padding: 10px;
+}
+
+.radtabellFoodFestMeny {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.understruken {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
