@@ -1,0 +1,169 @@
+#gradient-background {
+    /*From: https://www.w3schools.com/css/css3_gradients.asp*/
+    background-color: #42423e;
+    background-image: linear-gradient(to right, #e89d56, white);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Antonio', sans-serif;
+}
+
+.txtWhite {
+    color: whitesmoke;
+}
+
+.txtGrey {
+    color: rgb(116, 116, 116);
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noBreak {
+    margin-bottom: 0;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-title {
+    display: block;
+    color: white;
+    margin-top: 65px;
+}
+
+
+.roundedLine {
+    border-top: 8px solid white;
+    border-radius: 5px;
+}
+
+.profilbild {
+    max-width: 205px;
+    max-height: auto;
+    border: #42423e;
+}
+
+/*Endast för uppgiftens skull*/
+.welcomeText {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 200%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.linkedInImg {
+    max-width: 75px;
+}
+
+tr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toolList {
+    list-style: none;
+    display: inline-flex;
+}
+
+.imgTools {
+    max-height: 50px;
+}
+
+.colStyleText {
+    padding-top: 7px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.soloParagraph {
+    padding-top: 7px;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.projectList {
+    list-style: none;
+}
+
+.carousel {
+    padding: 20px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.carousel-inner {
+    padding: 10px;
+}
+
+.imgInCarousel {
+    margin-bottom: 100px;
+    max-width: -webkit-fill-available;
+}
+
+.omMigImg {
+    max-width: 350px;
+    max-height: auto;
+}
+
+.formStyle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerHeaderText2Align {
+    margin-top: 310px;
+    margin-bottom: 270px;
+}
+
+@media(max-width: 568px) {
+    .imgInCarousel {
+        margin-top: auto;
+        margin-bottom: 15px;
+        max-height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+}
+
+@media(max-width: 759px) {
+    .imgInCarousel {
+        margin-top: auto;
+        margin-bottom: 15px;
+        max-height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+}
